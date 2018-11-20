@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let ran1 = Math.floor(Math.random() * 11);
+    let ran2 = Math.floor(Math.random() * 301);
+    let ran3 = Math.floor(Math.random() * 100) + 50;
+    console.log(ran1);
+    console.log(ran2);
+    console.log(ran3);
+
+    let numArr = [5, 7, 2, 9];
+    let min = numArr[0];
+    for (let i = 0; i < numArr.length; i++) {
+        if (numArr[i] < min) {
+            min = numArr[i];
+        }
+    }
+    console.log(min);
+
+    let num = parseFloat(prompt("Enter number"));
+    let res = Math.pow(num,53);
+    console.log(res);
+
+    let rad = 5;
+    let area = Math.pow(rad,2) * Math.PI;
+    console.log(area);
+
+</script>
+</body>
+</html>
